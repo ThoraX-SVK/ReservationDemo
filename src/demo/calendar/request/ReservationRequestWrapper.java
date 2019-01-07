@@ -1,4 +1,4 @@
-package demo.calendar;
+package demo.calendar.request;
 
 import demo.calendar.request.Request;
 
@@ -12,7 +12,7 @@ public class ReservationRequestWrapper {
         this.requests = requests;
     }
 
-     public List<Request> getSubrequests() {
+    public List<Request> getSubrequests() {
         return this.requests;
     }
 

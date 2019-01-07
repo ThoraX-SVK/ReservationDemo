@@ -1,8 +1,13 @@
 package demo.calendar.request;
 
-abstract public class Request {
+import java.time.LocalDate;
+import java.time.LocalTime;
 
-    abstract public RequestType getType();
+public interface Request {
 
+    LocalDate date();
+    LocalTime from();
+    LocalTime to();
+    int requestedCapacity();
 
 }
